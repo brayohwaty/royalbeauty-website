@@ -1,0 +1,62 @@
+.head{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+        color: white;
+        position: fixed;
+        height: 50px;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 100;
+}
+.home{
+    background-color: white;
+    width: 90px;
+    border-radius: 6px;
+    height: 50px;
+}
+.main{
+    padding-left: 80px; 
+    height: 3000px; 
+    padding-top: 60px;
+}
+.pricelist-grid{
+    background-color:rgba(250, 250, 6, 0.932);
+        height: 1000px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        border: 2px solid white;
+        
+}
+
+.salons{
+          display: flex;
+          flex: 1;
+          flex-direction: row;
+          height: 1000px;
+          border: 20px solid white;
+          justify-content:center;
+          width: 300px;
+}
+
+.nail{
+          display: flex;
+          flex: 1;
+          flex-direction: row;
+          height: 1000px;
+          border: 20px solid white;
+          justify-content:center;
+}
+
+.hairstyles, .hair-price, .nail-touch, .nail-price{
+    color: black;
+    width: 200px;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.hair-price{
+    
+}

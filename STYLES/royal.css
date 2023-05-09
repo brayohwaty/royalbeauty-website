@@ -1,0 +1,67 @@
+
+  .poster{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+
+  
+  .post{
+    height: 300px;
+  }
+  .caption{
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+  }
+
+.intro{
+  display: flex;
+  font-family: Arial;
+  font-size: 20px;
+  justify-content: center;
+}
+
+.info{
+  display: flex;
+  flex-direction: row;
+}
+
+  .location, .hours{
+    background-color:white;
+    flex: 1;
+    color: black;
+    font-size: 20px;
+    font-family: Arial;
+    margin-left: 0;
+    line-height: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    }
+
+    .location{
+margin-left: 150px;
+    }
+  .booking{
+    margin-left: 600px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    background-color: rgb(227, 65, 64);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 200px;
+    border-radius: 6px;
+  }
+  .booking {
+    margin-top: 0;
+cursor: pointer;
+}
+.booking:hover {
+text-decoration: underline;
+}
